@@ -1,0 +1,202 @@
+@import '../../../main-styles.scss';
+
+
+.task-manager-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    max-height: 680px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+
+    width: 275px;
+    min-width: 275px;
+    background: white;
+
+    padding: 42px;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.tasks-list-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 42px;
+
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    .top-bar {
+        margin-bottom: 25px;
+        display: flex;
+        .title {
+            flex-grow: 1;
+            margin: 0;
+        }
+    }
+}
+
+.list-menu {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin-top: 15px;
+    flex-grow: 1;
+
+    .list-menu-item {
+        display: flex;
+
+        align-items: center;
+        padding: 10px 15px;
+        border-radius: 5px;
+
+        width: 100%;
+        color: #5f5f5f;
+        margin-bottom: 5px;
+
+        &:hover {
+            background: $light;
+        }
+
+        &.is-active {
+            background-color: #f1ecfb;
+            color: $dark-purple;
+        }
+    }
+}
+
+
+.tasks-list {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin-top: 15px;
+    flex-grow: 1;
+    max-height: 518px;
+
+    .task {
+        display: flex;
+        background: white;
+        padding: 15px 20px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        max-width: 98%;
+    
+        align-items: center;
+    
+        &:not(.complete) {
+            cursor: pointer;
+            transition: box-shadow 0.2s ease, transform 0.2s;
+    
+            &:active {
+                transform: scale(0.95);
+            }
+    
+            &:hover {
+                box-shadow: 0 0 0 5px #eeee;
+            }
+        }
+        
+        &.completed .task-text {
+            text-decoration: line-through;
+            opacity: 0.8;
+        }
+    
+        .task-text {
+            display: flex;
+            flex-grow: 1;
+        }
+    
+        .task-buttons {
+            display: flex;
+        
+            opacity: 0;
+            transform: scale(0.8);
+        
+            transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+        }
+    
+        &:hover .task-buttons {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    
+        .task-control-button {
+            display: flex;
+            background: #f5f7f8;
+        
+            padding: 7px 10px;
+        
+            i.material-icons {
+                font-size: 20px;
+                color: #555;
+            }
+        
+            &:hover {
+                background: #eee;
+                    
+                i.material-icons {
+                    color: #333;
+                }
+            }
+                
+            &:active {
+                background: #e5e7e8;
+            }
+            
+            &:first-of-type {
+                border-top-left-radius: 7px;
+                border-bottom-left-radius: 7px;
+            }
+            
+            &:last-of-type {
+                border-top-right-radius: 7px;
+                border-bottom-right-radius: 7px;
+            }
+        }
+    }
+
+}
+
+.task .task-buttons .task-control-button.is-danger:hover i.material-icons {
+    color: rgb(217, 50, 50);
+}
+        
+.task .task-buttons .task-control-button.is-danger:active i.material-icons {
+    color: rgb(210, 83, 83);
+}
+
+.circle-add-button {
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    right: 30px;
+    height: 52px;
+    width: 52px;
+    background: $primary;
+    border-radius: 50%;
+}
+
+.logout-button {
+    background-color: transparent;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: white;
+    border: none;
+}
+
+.empty-state-text {
+    font-size: 20px;
+    color: #777;
+    text-align: center;
+}

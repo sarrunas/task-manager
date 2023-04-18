@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700');
+
+
+$light-blue: #8ca6db;
+$purple: #b897d2;
+
+$light-purple: #eddcfc;
+$dark-purple: #36005e;
+
+$light: #f8f8f8;    
+
+// update Bulmas's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $light-blue;
+
+
+// update some of Bulma's component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// set custom global styles
+html {
+    background: linear-gradient(to left bottom, $light-blue, $purple);
+}
+
+html, body {
+    height: 100%;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-box {
+    min-height: 230px;
+    width: 100%;
+    max-width: 580px;
+    background: white;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.white-box {
+    padding: 35px;
+    background: white;
+    border-radius: 5px;
+
+    width: 350px;
+    max-width: 350px;
+}
+
+.primary-button {
+    background: $primary;
+}
+
+.primary-text {
+    color: $primary;
+}
