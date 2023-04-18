@@ -1,6 +1,7 @@
 <h1 align="center">Task Manager</h1>
 
 <h3 align="left">You can reach this project at www.taskmanager.lt. I made this mainly for fun and educational purposes :)</h3>
+<br>
 <img src="https://i.imgur.com/qXquuQ3.jpeg">
 
 <p align="left">
