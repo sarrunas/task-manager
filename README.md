@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Šarūnas</h1>
-<h3 align="center">This is my task manager project.</h3>
+<h1 align="center">Task Manager</h1>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="center">You can reach this project at www.taskmanager.lt. I made this mainly for fun and educational purposes :) I used Angular, TypeScript, HTML, and CSS for frontend, MongoDB for database and ASP.NET Core for backend api.</h3>
+
 <p align="left">
 </p>
 
