@@ -2,6 +2,8 @@
 
 <h3 align="left">You can reach my project at www.taskmanager.lt. I made this for educational purposes :)</h3>
 <br>
+
+<img src="https://i.imgur.com/9kdwqo6.jpeg">
 <img src="https://i.imgur.com/qXquuQ3.jpeg">
 
 <p align="left">
