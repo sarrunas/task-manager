@@ -2,7 +2,7 @@
 
 <h3 align="left">You can reach my project at www.taskmanager.lt. I made this for educational purposes :)
 </h3>
-<h4>First you need to sign up and log in. Then you can create tasks and add them to your task lists. To delete or edit a list, hover over the settings icon. To complete a task, click on it. To delete or edit a task, hover over the task and the icons will appear.</h4>
+<h3>Firstly you need to sign up and log in. Then you can create tasks and add them to your task lists. To delete or edit a list, hover over the settings icon. To complete a task, click on it. To delete or edit a task, hover over the task and the icons will appear.</h3>
 <br>
 
 <img src="https://i.imgur.com/9kdwqo6.jpeg">
