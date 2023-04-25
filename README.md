@@ -6,7 +6,7 @@
 - Sign up and log in. <br> 
 - Create tasks and add them to your task lists. <br>
 - To delete or edit a list, hover over the settings icon. <br>
-- To complete a task, click on it.
+- To complete a task, click on it. <br>
 - To delete or edit a task, hover over the task and the icons will appear.
 </h3>
 
