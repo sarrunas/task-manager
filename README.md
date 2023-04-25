@@ -5,9 +5,9 @@
 <h3>
 - Sign up and log in. <br> 
 - Create tasks and add them to your task lists. <br>
-- To delete or edit a list, hover over the settings icon. <br>
-- To complete a task, click on white task box. <br>
-- To delete or edit a task, hover over the task and the icons will appear.
+- To delete or edit a list hover over the settings icon. <br>
+- To complete a task click on white task box. <br>
+- To delete or edit a task hover over the task and the icons will appear.
 </h3>
 
 <br>
