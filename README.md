@@ -1,6 +1,6 @@
 <h1 align="center">Task Manager</h1>
 
-<h3 align="left">You can reach my project at www.taskmanager.lt. I made this for educational purposes :)</h3>
+<h3 align="left">You can reach my project at www.taskmanager.lt (currently unavailable). I made this for educational purposes :)</h3>
 
 <h3>
 - Sign up and log in. <br> 
